@@ -1,0 +1,46 @@
+.botao_menu{
+    display: none;
+}
+.container_cabecalho{
+    display: flex;
+    height: 15vh;
+}
+.container_menu{
+    display: flex;
+    background-color:var(--azul-oceano);
+    width:100%;
+    font-family: var(--fonte-Dekko);
+}
+.itens_menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.item_menu{
+    list-style: none;
+    margin:20px 0 47px 130px;
+    font-size: 25px;
+}
+.link_menu{
+    text-decoration: none;
+    color: var(--branco);
+}
+.link_menu:hover{
+    color: var(--rosa);
+}
+.icones_home{
+    margin: 20px 100px 20px 450px;
+    display: flex;
+    align-items: center;
+}
+.imagem_logo{
+    width: 100px;
+    height: 80px;
+    flex-shrink: 0;
+}
+.imagem_home{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+
+}
