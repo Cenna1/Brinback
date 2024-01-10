@@ -1,0 +1,33 @@
+.voluntariado {
+    background-color: var(--azul-oceano);
+    text-align: center;
+}
+
+.voluntariado_texto {
+    font-family: var(--fonte-Chicle);
+    font-size: 32px;
+    color: var(--branco);
+}
+
+.voluntariado_botoes {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin: 2em 1em;
+}
+
+.botoes {
+    border: 1px solid #f9f9f9;
+    border-radius: 15px;
+    padding: 2em;
+}
+
+.botao1 {
+    background: url(./img/brinquedos.png), #f9f9f9;
+    background-repeat: no-repeat;
+}
+
+.botao2 {
+    background: url(./img/maos_juntas.png), #f9f9f9;
+    background-repeat: no-repeat;
+}

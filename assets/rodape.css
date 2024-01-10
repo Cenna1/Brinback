@@ -1,0 +1,49 @@
+.rodape {
+    margin: 0 2em;
+}
+
+.rodape_texto {
+    font-family: var(--fonte-Chicle);
+    font-size: 24px;
+    color: var(--azul);
+    margin-left: 1em;
+}
+
+.rodape_grid {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    text-align: center;
+}
+
+.rodape_grid-lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape_grid-item {
+    font-family: var(--fonte-Dekko);
+    font-size: 20px;
+    color: var(--rosa);
+}
+
+.rodape_info {
+    font-family: var(--fonte-Dekko);
+    font-size: 16px;
+    color: var(--azul);
+    text-align: center;
+    margin: 1em 0;
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape_texto {
+        text-align: center;
+    }
+    
+    .rodape_grid-responsivo {
+        display: flex;
+        justify-content: center;
+        gap: 1.5em;
+    }
+}
