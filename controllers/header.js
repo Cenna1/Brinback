@@ -39,16 +39,22 @@ const menuDesktop = `
         <a href='./quemsomos.html' class='link_menu'>
           Quem somos
         </a>
+        </li>
+      <li class='item_menu'>
+        <a href='./brinquedos.html' class='link_menu'>
+          Brinquedos
+        </a>
+      </li>
       </li>
       <li class='item_menu'>
-        <a href='#' class='link_menu'>
+        <a href='./telalogin.html' class='link_menu'>
           Minha conta
         </a>
       </li>
     </ul>
     <div class='icones_home'>
       <img src='./assets/img/logo_brinback.png' alt='logo de ursinho' class='imagem_logo'/>
-      <a href="#"><img src='./assets/img/icone_home.png' alt='icone home' class='imagem_home'/></a>
+      <a href="./index.html"><img src='./assets/img/icone_home.png' alt='icone home' class='imagem_home'/></a>
     </div>
   </menu>
 `;
