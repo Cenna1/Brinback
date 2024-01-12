@@ -1,10 +1,11 @@
-.botao_menu{
-    display: none;
-}
 .container_cabecalho{
     display: flex;
-    height: 15vh;
+    height: 112px;
+    background-color: var(--azul-oceano);
+    font-family: var(--fonte-Dekko);
+  
 }
+
 .container_menu{
     display: flex;
     background-color:var(--azul-oceano);
@@ -43,4 +44,8 @@
     height: 60px;
     flex-shrink: 0;
 
+}
+
+.botao_menu{
+    display: none;
 }
