@@ -1,179 +1,195 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brinquedos</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dekko&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Chicle&family=Dekko&display=swap" rel="stylesheet">
-
-</head>
-<body>
-    <header class= "container_cabecalho">
-        <nav class="botao_menu">
-            <label for= "toggle_menu" class="imagem_menu">
-                <img src="./assets/img/botao_menu.png" alt="botão de menu">
-            </label>
-                <input type="checkbox" id="toggle_menu" class="container_botao">
-                
-                <ul class="menu_hamburguer">
-                    <li class="item_menu_hamburguer">
-                        <a href="#" class="link_menu_hamburguer"> Quem somos</a>
-                    </li>
-                    <li class="item_menu_hamburguer">
-                        <a href="#" class="link_menu_hamburguer">Minha conta</a>
-                    </li>
-                </ul>
-                
-            </nav>
-        <menu class="container_menu">
-            <ul class="itens_menu">
-                <li class="item_menu">
-                    <a href="#" class="link_menu"> Quem somos</a>
-                </li>
-                <li class="item_menu">
-                    <a href="#" class="link_menu">Minha conta</a>
-                </li>
-            </ul>
-            
-            <div class=" icones_home">
-                <img src="./assets/img/logo_brinback.png" alt="logo de ursinho" class="imagem_logo">
-               <a href="#"><img src="./assets/img/icone_home.png" alt="icone home" class="imagem_home"></a>
-            </div>
-        </menu>
-    </header>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dekko&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chicle&family=Dekko&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="./controllers/header.js"></script>
     <main>
+      <h1 class="titulo__pagina">Escolha seu brinquedo</h1>
 
+      <section class="brinquedos">
+        <div class="brinquedos__fotos">
+          <a href=""
+            ><img
+              src="assets/img/brinquedo trem plastico.png"
+              alt="trem de plastico"
+              width="292"
+              height="260"
+            />Trem de plastico</a
+          >
+        </div>
+        <div class="brinquedos__fotos">
+          <a href=""
+            ><img
+              src="assets/img/brinquedo blocos madeira.png"
+              alt="blocos de madeira"
+              width="275"
+              height="249"
+            />Blocos de madeira</a
+          >
+        </div>
+        <div class="brinquedos__fotos">
+          <a href=""
+            ><img
+              src="assets/img/brinquedo coelho pelucia.png"
+              alt="coelho de pelucia"
+              width="194"
+              height="258"
+            />Coelho de pelucia</a
+          >
+        </div>
+      </section>
 
-        <h1 class="titulo__pagina">Escolha seu brinquedo</h1>
-    
-    
-        <section class="brinquedos">
-            <div class="brinquedos__fotos"><a href=""><img src="assets/img/brinquedo trem plastico.png" alt="trem de plastico" 
-                width="292" height="260">Trem de plastico</a></div>
-            <div class="brinquedos__fotos"><a href=""><img src="assets/img/brinquedo blocos madeira.png" alt="blocos de madeira"
-                width="275" height="249">Blocos de madeira</a></div>
-            <div class="brinquedos__fotos"><a href=""><img src="assets/img/brinquedo coelho pelucia.png" alt="coelho de pelucia"
-                width="194" height="258">Coelho de pelucia</a></div>
-        </section>
-    
-    
-        <section class="brinquedos">
-            <div class="brinquedos__fotos"><a href=""><img src="assets/img/brinquedo dinossauro.png" alt="dinossauro"
-            width="316" height="260"><span>Dinossauro</span></a></div>
-            <div class="brinquedos__fotos"><a href=""><img src="assets/img/brinquedo trem madeira.png" alt="trem madeira"
-            width="391" height="260"><span>Trem de madeira</span></a></div>
-            <div class="brinquedos__fotos"><a href=""><img src="assets/img/brinquedo boneca.png" alt="boneca"
-            width="198" height="260"><span>Boneca</span></a></div>
-        </section>
-         
+      <section class="brinquedos">
+        <div class="brinquedos__fotos">
+          <a href=""
+            ><img
+              src="assets/img/brinquedo dinossauro.png"
+              alt="dinossauro"
+              width="316"
+              height="260"
+            /><span>Dinossauro</span></a
+          >
+        </div>
+        <div class="brinquedos__fotos">
+          <a href=""
+            ><img
+              src="assets/img/brinquedo trem madeira.png"
+              alt="trem madeira"
+              width="391"
+              height="260"
+            /><span>Trem de madeira</span></a
+          >
+        </div>
+        <div class="brinquedos__fotos">
+          <a href=""
+            ><img
+              src="assets/img/brinquedo boneca.png"
+              alt="boneca"
+              width="198"
+              height="260"
+            /><span>Boneca</span></a
+          >
+        </div>
+      </section>
     </main>
-    
+
     <footer class="rodape">
-        <p class="rodape_texto">Desenvolvido por:</p>
-        <div class="rodape_grid-responsivo">
-          <div class="rodape_grid">
-            <div class="rodape_grid-lista">
-              <label class="rodape_grid-item">Açucena Oliveira</label>
-              <div>
-                <a href="#"
-                  ><img
-                    src="./assets/img/icon _instagram.png"
-                    alt="icone instagram"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="./assets/img/icon _linkedin.png"
-                    alt="icone linkedin"
-                /></a>
-                <a href="#"
-                  ><img src="./assets/img/icon _github.png" alt="icone github"
-                /></a>
-              </div>
-            </div>
-            <div class="rodape_grid-lista">
-              <label class="rodape_grid-item">Karen Dias</label>
-              <div>
-                <a href="#"
-                  ><img
-                    src="./assets/img/icon _instagram.png"
-                    alt="icone instagram"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="./assets/img/icon _linkedin.png"
-                    alt="icone linkedin"
-                /></a>
-                <a href="#"
-                  ><img src="./assets/img/icon _github.png" alt="icone github"
-                /></a>
-              </div>
-            </div>
-            <div class="rodape_grid-lista">
-              <label class="rodape_grid-item">Josefina Pambula</label>
-              <div>
-                <a href="#"
-                  ><img
-                    src="./assets/img/icon _instagram.png"
-                    alt="icone instagram"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="./assets/img/icon _linkedin.png"
-                    alt="icone linkedin"
-                /></a>
-                <a href="#"
-                  ><img src="./assets/img/icon _github.png" alt="icone github"
-                /></a>
-              </div>
+      <p class="rodape_texto">Desenvolvido por:</p>
+      <div class="rodape_grid-responsivo">
+        <div class="rodape_grid">
+          <div class="rodape_grid-lista">
+            <label class="rodape_grid-item">Açucena Oliveira</label>
+            <div>
+              <a href="#"
+                ><img
+                  src="./assets/img/icon _instagram.png"
+                  alt="icone instagram"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./assets/img/icon _linkedin.png"
+                  alt="icone linkedin"
+              /></a>
+              <a href="#"
+                ><img src="./assets/img/icon _github.png" alt="icone github"
+              /></a>
             </div>
           </div>
-          <div class="rodape_grid">
-            <div class="rodape_grid-lista">
-              <label class="rodape_grid-item">Malorie Ebang</label>
-              <div>
-                <a href="#"
-                  ><img
-                    src="./assets/img/icon _instagram.png"
-                    alt="icone instagram"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="./assets/img/icon _linkedin.png"
-                    alt="icone linkedin"
-                /></a>
-                <a href="#"
-                  ><img src="./assets/img/icon _github.png" alt="icone github"
-                /></a>
-              </div>
+          <div class="rodape_grid-lista">
+            <label class="rodape_grid-item">Karen Dias</label>
+            <div>
+              <a href="#"
+                ><img
+                  src="./assets/img/icon _instagram.png"
+                  alt="icone instagram"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./assets/img/icon _linkedin.png"
+                  alt="icone linkedin"
+              /></a>
+              <a href="#"
+                ><img src="./assets/img/icon _github.png" alt="icone github"
+              /></a>
             </div>
-            <div class="rodape_grid-lista">
-              <label class="rodape_grid-item">Nubia Calderan</label>
-              <div>
-                <a href="#"
-                  ><img
-                    src="./assets/img/icon _instagram.png"
-                    alt="icone instagram"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="./assets/img/icon _linkedin.png"
-                    alt="icone linkedin"
-                /></a>
-                <a href="#"
-                  ><img src="./assets/img/icon _github.png" alt="icone github"
-                /></a>
-              </div>
+          </div>
+          <div class="rodape_grid-lista">
+            <label class="rodape_grid-item">Josefina Pambula</label>
+            <div>
+              <a href="#"
+                ><img
+                  src="./assets/img/icon _instagram.png"
+                  alt="icone instagram"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./assets/img/icon _linkedin.png"
+                  alt="icone linkedin"
+              /></a>
+              <a href="#"
+                ><img src="./assets/img/icon _github.png" alt="icone github"
+              /></a>
             </div>
           </div>
         </div>
-        <p class="rodape_info">
-          11ª turma Mulheres in Tech - Fly Educação e Cultura
-        </p>
-      </footer>
-</body>
+        <div class="rodape_grid">
+          <div class="rodape_grid-lista">
+            <label class="rodape_grid-item">Malorie Ebang</label>
+            <div>
+              <a href="#"
+                ><img
+                  src="./assets/img/icon _instagram.png"
+                  alt="icone instagram"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./assets/img/icon _linkedin.png"
+                  alt="icone linkedin"
+              /></a>
+              <a href="#"
+                ><img src="./assets/img/icon _github.png" alt="icone github"
+              /></a>
+            </div>
+          </div>
+          <div class="rodape_grid-lista">
+            <label class="rodape_grid-item">Nubia Calderan</label>
+            <div>
+              <a href="#"
+                ><img
+                  src="./assets/img/icon _instagram.png"
+                  alt="icone instagram"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./assets/img/icon _linkedin.png"
+                  alt="icone linkedin"
+              /></a>
+              <a href="#"
+                ><img src="./assets/img/icon _github.png" alt="icone github"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="rodape_info">
+        11ª turma Mulheres in Tech - Fly Educação e Cultura
+      </p>
+    </footer>
+  </body>
 </html>
