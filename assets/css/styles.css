@@ -1,0 +1,24 @@
+@import url("./header/header.css");
+@import url("./header/header.responsive.css");
+@import url("./doacao/doacao.css");
+@import url("./voluntariado/voluntariado.css");
+@import url("./rodape/rodape.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --azul-oceano: #69d2ca;
+  --azul: #0096b8;
+  --cor-fundo: #fcf6e8;
+  --rosa: #f83aaf;
+  --amarelo: #f2ca50;
+  --branco: #ffffff;
+  --fonte-Dekko: "Dekko";
+  --fonte-Chicle: "Chicle";
+}
+
+body {
+  background-color: var(--cor-fundo);
+}
