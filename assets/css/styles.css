@@ -3,6 +3,10 @@
 @import url("./doacao/doacao.css");
 @import url("./voluntariado/voluntariado.css");
 @import url("./rodape/rodape.css");
+@import url("./telalogin/telalogin.css");
+@import url("./quemsomos/quemsomos.css");
+
+
 
 * {
   margin: 0;

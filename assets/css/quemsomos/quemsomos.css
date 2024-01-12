@@ -1,0 +1,39 @@
+.titulo__pagina__qsm{
+    font-family: var(--fonte-Dekko);
+    font-size: 55px;
+    color: var(--rosa);
+    display: flex;
+    justify-content: center;
+
+}
+
+.colunas{
+    column-count: 2;
+    column-width: 400px;
+    column-gap: 0px;
+
+}
+
+.colunas__1{
+    text-align: left;
+}
+
+.colunas__2{
+    font-family: var(--fonte-Dekko);
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+}
+
+.fotos_quem_somos{
+    display: inline-block;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+.fotos_quem_somos:hover{
+    font-size:120% ;
+}
+
+
+

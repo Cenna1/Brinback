@@ -1,0 +1,52 @@
+
+.titulo__pagina{
+    background-color: var(--cor-fundo);
+    color: var(--rosa);
+    text-align: center;
+    font-family: var(--fonte-Dekko);
+    font-size: 50px;
+
+}
+
+.brinquedos__linha1{
+    font-family: var(--fonte-Dekko);
+    color: var(--azul);
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+
+.brinquedos__linha2{
+    font-family: var(--fonte-Dekko);
+    color: var(--azul);
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+
+.brinquedos{
+    font-family: var(--fonte-Dekko);
+    color: var(--azul);
+    font-size: 26px;
+    display: inline;
+
+}
+
+.brinquedos__fotos{
+    display: inline-block;
+    padding: 2rem;
+    margin: 3rem;
+
+}
+
+.brinquedos__fotos:hover{
+    font-size: 135% ;
+}
+
+.brinquedos__fotos__descricao{
+    text-align: center;
+}
