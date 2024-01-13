@@ -1,12 +1,12 @@
 
-
-
 .titulo__pagina{
     background-color: var(--cor-fundo);
     color: var(--rosa);
     text-align: center;
     font-family: var(--fonte-Dekko);
     font-size: 50px;
+    text-decoration: none;
+
 
 }
 
@@ -15,6 +15,7 @@
     color: var(--azul);
     text-align: center;
     text-decoration: none;
+    text-align: center;
 
 }
 
@@ -40,13 +41,15 @@
 
 .brinquedos__fotos{
     display: inline-block;
-    padding: 2rem;
+    padding: 20px;
     margin: 3rem;
-
+    margin-left: 2rem;
+      
 }
 
 .brinquedos__fotos:hover{
-    font-size: 135% ;
+    font-size: 115% ;
+    
 }
 
 .brinquedos__fotos__descricao{
