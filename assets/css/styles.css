@@ -1,10 +1,13 @@
 @import url("./header/header.css");
 @import url("./header/header.responsive.css");
 @import url("./doacao/doacao.css");
-@import url("./voluntariado/voluntariado.css");
+@import url("./facaparte/facaparte.css");
 @import url("./rodape/rodape.css");
 /* @import url("./telalogin/telalogin.css"); */
 @import url("./quemsomos/quemsomos.css");
+@import url("./home/home.css");
+@import url("./brinquedos/brinquedos.css");
+
 
 
 * {
