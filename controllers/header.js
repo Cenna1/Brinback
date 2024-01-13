@@ -29,9 +29,8 @@ const navegacaoMenuHamburguer =
   "</li>" +
   "<li class='item_menu_hamburguer'>" +
   "<a href='./facaparte.html' class='link_menu_hamburguer'>" +
-  "Faça Parte" +
+  " Faça parte" +
   "</a>" +
-  "</li>" +
   "<li class='item_menu_hamburguer'>" +
   "<a href='./telalogin.html' class='link_menu_hamburguer'>" +
   " Minha conta" +
@@ -45,7 +44,6 @@ header.innerHTML += navegacaoMenuHamburguer;
 const menuDesktop = `
   <menu class='container_menu'>
     <ul class='itens_menu'>
-   
       <li class='item_menu'>
         <a href='./quemsomos.html' class='link_menu'>
           Quem somos
@@ -56,18 +54,16 @@ const menuDesktop = `
           Brinquedos
         </a>
       </li>
-    
       <li class='item_menu'>
-        <a href='./telalogin.html' class='link_menu'>
-          Minha conta
+        <a href='./facaparte.html' class='link_menu'>
+          Faça parte
         </a>
       </li>
       <li class='item_menu'>
-    <a href='./facaparte.html' class='link_menu'>
-      Faça parte
-    </a>
-  </li>
-     
+       <a href='./telalogin.html' class='link_menu'>
+         Minha conta
+        </a>
+      </li>
     </ul>
     <div class='icones_home'>
       <img src='./assets/img/logo_brinback.png' alt='logo de ursinho' class='imagem_logo'/>
