@@ -18,12 +18,17 @@ const navegacaoMenuHamburguer =
   "<input type='checkbox' id='toggle_menu' class='container_botao' />" +
   "<ul class='menu_hamburguer'>" +
   "<li class='item_menu_hamburguer'>" +
-  "<a href='#' class='link_menu_hamburguer'>" +
+  "<a href='./quemSomos.html' class='link_menu_hamburguer'>" +
   " Quem somos" +
   "</a>" +
   "</li>" +
   "<li class='item_menu_hamburguer'>" +
-  "<a href='#' class='link_menu_hamburguer'>" +
+  "<a href='./brinquedos.html' class='link_menu_hamburguer'>" +
+  "Brinquedos" +
+  "</a>" +
+  "</li>" +
+  "<li class='item_menu_hamburguer'>" +
+  "<a href='./telalogin.html' class='link_menu_hamburguer'>" +
   " Minha conta" +
   "</a>" +
   "</li>" +
