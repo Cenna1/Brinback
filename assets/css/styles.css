@@ -7,8 +7,7 @@
 @import url("./quemsomos/quemsomos.css");
 @import url("./home/home.css");
 @import url("./brinquedos/brinquedos.css");
-
-
+@import url("../css/swiper.css");
 
 * {
   margin: 0;
