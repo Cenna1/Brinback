@@ -1,23 +1,38 @@
 @import url("./header/header.css");
 @import url("./header/header.responsive.css");
 @import url("./doacao/doacao.css");
-@import url("./voluntariado/voluntariado.css");
 @import url("./rodape/rodape.css");
-/* @import url("./telalogin/telalogin.css"); */
+@import url("./facaparte/facaparte.css");
+@import url("./telalogin/telalogin.css");
 @import url("./quemsomos/quemsomos.css");
-
+@import url("./home/home.css");
+@import url("./brinquedos/brinquedos.css");
+@import url("../css/swiper.css");
 
 * {
   margin: 0;
   padding: 0;
 }
 :root {
+  /*Cores*/
   --azul-oceano: #69d2ca;
   --azul: #0096b8;
   --cor-fundo: #fcf6e8;
   --rosa: #f83aaf;
   --amarelo: #f2ca50;
   --branco: #ffffff;
+  --cor-de-fundo: #fcf6e8;
+  --cor-de-fundo-login: #fcf6e8;
+  --cor-de-fundo-card-login: #0096b8;
+  --cor-do-botão-login: #f83aaf;
+  --cor-do-botão-fonte-login: #f2ca50;
+  --cor-botão-criar-conta: #0096b8;
+  --cor-fonte-criarconta: #f2ca50;
+  --cor-fonte1: #0096b8;
+  --cor-fonte2: #f83aaf;
+  --cor-sombreamento: #00000056;
+
+  /*Fontes*/
   --fonte-Dekko: "Dekko";
   --fonte-Chicle: "Chicle";
 }
