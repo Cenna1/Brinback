@@ -9,20 +9,20 @@
   background-color: var(--azul-oceano);
   width: 100%;
   font-family: var(--fonte-Dekko);
+  justify-content: center;
+  align-items: center;
 }
 .itens_menu {
   display: flex;
-  justify-content: space-between;
-  margin-left: 50px;
-}
-.item_menu {
   list-style: none;
-  margin: 20px 0 47px 130px;
-  font-size: 25px;
 }
+
 .link_menu {
   text-decoration: none;
   color: var(--branco);
+  font-family: var(--fonte-Dekko);
+  font-size: 30px;
+  padding-left: 2em;
 }
 .link_menu:hover {
   color: var(--rosa);

@@ -47,11 +47,16 @@
       
 }
 
-.brinquedos__fotos:hover{
+/* .brinquedos__fotos:hover{
     font-size: 115% ;
     
-}
+} */
 
 .brinquedos__fotos__descricao{
     text-align: center;
+}
+
+.links__brinquedos{
+    font-family: var(--fonte-Dekko);
+
 }

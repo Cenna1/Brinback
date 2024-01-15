@@ -28,6 +28,10 @@ const navegacaoMenuHamburguer =
   "</a>" +
   "</li>" +
   "<li class='item_menu_hamburguer'>" +
+  "<a href='./facaparte.html' class='link_menu_hamburguer'>" +
+  " Faça parte" +
+  "</a>" +
+  "<li class='item_menu_hamburguer'>" +
   "<a href='./telalogin.html' class='link_menu_hamburguer'>" +
   " Minha conta" +
   "</a>" +
@@ -51,8 +55,13 @@ const menuDesktop = `
         </a>
       </li>
       <li class='item_menu'>
-        <a href='./telalogin.html' class='link_menu'>
-          Minha conta
+        <a href='./facaparte.html' class='link_menu'>
+          Faça parte
+        </a>
+      </li>
+      <li class='item_menu'>
+       <a href='./telalogin.html' class='link_menu'>
+         Minha conta
         </a>
       </li>
     </ul>

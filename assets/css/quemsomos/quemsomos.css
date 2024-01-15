@@ -1,4 +1,4 @@
-.titulo__pagina__qsm{
+/* .titulo__pagina__qs{
     font-family: var(--fonte-Dekko);
     font-size: 55px;
     color: var(--rosa);
@@ -8,7 +8,7 @@
     margin: 2rem;
 
 }
-
+  
 .colunas{
     column-count: 2;
     column-width: 400px;
@@ -43,6 +43,56 @@
 .fotos_quem_somos:hover{
     font-size:120% ;
 }
+ */
 
 
+.quemsomos_conteudo{
+    font-family: var(--fonte-Dekko);
+    color: var(--rosa);
+    padding: 5% 5%;
+ }
 
+.quemsomos_conteudo_paragrafo{
+    width: 1200px;
+    display: flex;
+    gap: 10px;
+    padding: 0% 10%;
+    justify-content: space-between;
+    column-count: 2;
+    column-width: 400px;
+    column-gap: 120px;
+}
+
+.quemsomos_conteudo_titulo{
+    font-size: 55px;
+    color: var(--rosa);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.quemsomos_conteudo_logo{
+    justify-content: left;
+
+}
+
+.quemsomos_conteudo_texto{
+    font-size: 25px;
+
+
+}
+
+
+.quemsomos_conteudo_fotos{
+    font-family: var(--fonte-Dekko);
+    color: var(--rosa);
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.quemsomos_conteudo_fotos a{
+    text-decoration: none;
+
+}
