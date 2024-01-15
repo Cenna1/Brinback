@@ -1,6 +1,9 @@
-.container_doacao {
-  text-align: center;
-}
+.container_doacao{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+
 
 .container_texto {
   text-align: center;
@@ -9,14 +12,19 @@
 
 .container_texto-titulo {
   font-family: var(--fonte-Chicle);
-  font-size: 64px;
+  font-size: 90px;
   color: var(--azul);
 }
 
 .container_texto-frase {
   font-family: var(--fonte-Dekko);
-  font-size: 32px;
+  font-size: 45px;
   color: var(--rosa);
+}
+.container_elemento1{
+  width: 318px;
+  height: 86px;
+  display: block;
 }
 
 .botao_doacao {
