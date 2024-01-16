@@ -17,39 +17,43 @@
 
   <body>
     <script src="./controllers/header.js"></script>
-    <div class="left-login">
-      <img
-        src="logo_brinback 1.png"
-        class="left-login-logo"
-        alt="logo Brinback"
-      />
-    </div>
-    <div class="rigth-login">
-      <div class="card-login">
-        <h1>Login</h1>
-        <div class="textfield">
-          <input type="text" placeholder="Email ou telefone" />
-          <br /><br />
+    <section class="login">
+      <div class="left-login">
+        <img
+          src="./assets/img/logo_brinback 1.png"
+          class="left-login-logo"
+          alt="logo Brinback"
+        />
+      </div>
+      <div class="right-login">
+        <div class="card-login">
+          <h1 class="card-login__texto">Login</h1>
+          <div class="textfield">
+            <label>Email ou telefone</label>
+            <input class="textfield-placeholder" type="text" placeholder="usuario@mail.com" />
+            <br /><br />
+          <!-- </div>
+          <div class="textfield"> -->
+            <label>Senha</label>
+            <input class="textfield-placeholder" type="password" placeholder="Insira sua senha" />
+            <br /><br />
+          </div>
+          <button class="botão-login">Entrar</button>
+          <div>
+            <a href="#" class="Esqueci">Esqueci minha Senha</a>
+          </div>
+          <!-- <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </a> -->
         </div>
-        <div class="textfield">
-          <input type="password" placeholder="Senha" />
-          <br /><br />
-        </div>
-        <button class="botão-login">Entrar</button>
         <div>
-          <a href="#" class="Esqueci">Esqueci minha Senha</a>
-        </div>
-        <a href="#">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-        <div>
-          <button class="botão-Conta">Criar Conta</button>
+          <a href="#" class="botão-Conta">Criar Conta</a>
         </div>
       </div>
-    </div>
+    </section>  
 
     <script src="./controllers/footer.js"></script> 
   </body>

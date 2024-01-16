@@ -13,39 +13,40 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
-}
-
-body * {
-  box-sizing: border-box;
 } */
 
-.left-login {
-  width: 50vw;
-  height: 100vh;
+/* body * {
+  box-sizing: border-box;
+}  */
+
+.login {
   display: flex;
-  width: 100vw;
-  height: 100vh;
+}
+
+.left-login {
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  margin-left: 10em;
 }
 
 .left-login-logo {
   width: 35vw;
 }
 
-.rigth-login {
-  width: 50vw;
-  height: 100vh;
+.right-login {
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  flex-direction: column;
+  gap: 1em;
   justify-content: center;
   align-items: center;
+  margin: 5em 0 5em 6em;
+  font-family: var(--fonte-Dekko);
+  font-size: 24px;
+  color: var(--branco);
 }
 
 .card-login {
-  width: 50%;
   display: flex;
   width: 25vw;
   height: 60vh;
@@ -53,26 +54,20 @@ body * {
   align-items: center;
   flex-direction: column;
   padding: 30px 35px;
-  background: var(--cor-de-fundo-card-login);
+  background: var(--azul-oceano);
   border-radius: 25px;
   box-shadow: 0px 2px 10px var(--cor-sombreamento);
-}
-
-.textfield {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
 }
 
 .textfield > input {
   width: 100%;
   border: none;
   border-radius: 25px;
-  padding: 16px 50px;
-  background: var(--cor-de-fundo-login);
-  color: var(--cor-fonte1);
+  padding: 1em 2em;
+  background: var(--cor-de-fundo);
+  color: var(--azul);
   font-family: "Dekko", cursive;
-  font-size: 12pt;
+  font-size: 16px;
   box-shadow: 0px 2px 10px var(--cor-sombreamento);
   outline: none;
   box-sizing: border-box;
@@ -86,7 +81,7 @@ body * {
   border-radius: 25px;
   color: var(--cor-do-botão-fonte-login);
   background-color: var(--cor-do-botão-login);
-  font-size: 20pt;
+  font-size: 28px;
   font-family: "Dekko", cursive;
   text-transform: capitalize;
   letter-spacing: 3px;
@@ -96,21 +91,48 @@ body * {
 
 .Esqueci {
   color: var(--cor-fonte2);
+  font-size: 20px;
   text-decoration: none;
 }
 
 .botão-Conta {
-  width: 150%;
-  padding: 4px 0px;
-  margin: 5px;
+  padding: 0 2em;
   border: none;
   border-radius: 25px;
   color: var(--cor-do-botão-fonte-login);
-  background-color: var(--cor-botão-criar-conta);
-  font-size: 20pt;
+  background-color: var(--azul-oceano);
+  font-size: 42px;
   font-family: "Chicle", serif;
   text-transform: capitalize;
+  text-decoration: none;
   letter-spacing: 3px;
   cursor: pointer;
   box-shadow: 0px 2px 10px var(--cor-sombreamento);
+}
+
+@media screen and (max-width: 1024px) {
+  .login {
+    flex-direction: column;
+  } 
+
+  .left-login {
+    margin: 2em 0 0 0;
+  }
+
+  .left-login-logo {
+    width: 60%;
+  }
+
+  .right-login {
+    margin: 2em 0;
+  }
+
+  .card-login {
+    padding: 1em;
+    width: 80%;
+  }
+
+  .botão-Conta {
+    font-size: 24px;
+  }
 }
