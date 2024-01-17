@@ -1,58 +1,46 @@
-
-.titulo__pagina{
-    background-color: var(--cor-fundo);
-    color: var(--rosa);
-    text-align: center;
-    font-family: var(--fonte-Dekko);
-    font-size: 50px;
-  }
-
-
-
-.brinquedos__linha1{
-    font-family: var(--fonte-Dekko);
-    color: var(--azul);
-    text-align: center;
-    text-decoration: none;
-    text-align: center;
-
+.titulo__pagina {
+  background-color: var(--cor-fundo);
+  color: var(--rosa);
+  text-align: center;
+  font-family: var(--fonte-Dekko);
+  font-size: 50px;
 }
 
-
-
-.brinquedos__linha2{
-    font-family: var(--fonte-Dekko);
-    color: var(--azul);
-    text-align: center;
-    display: inline-block;
-       
+.brinquedos__linha1 {
+  font-family: var(--fonte-Dekko);
+  color: var(--azul);
+  text-align: center;
+  text-decoration: none;
 }
 
-
-.brinquedos{
-    font-family: var(--fonte-Dekko);
-    font-size: 26px;
-    height: 65vh;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    justify-content: center;
-    text-align: center;
-
+.brinquedos__linha2 {
+  font-family: var(--fonte-Dekko);
+  color: var(--azul);
+  text-align: center;
+  display: inline-block;
 }
 
-.brinquedos__fotos{
-    display: inline-block;
-    padding: 20px;
-    margin: 3rem;
-    margin-left: 2rem;
-      
+.brinquedos {
+  font-family: var(--fonte-Dekko);
+  font-size: 26px;
+  height: 65vh;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  text-align: center;
 }
 
- .brinquedos__fotos a{
-    text-decoration: none;
-    color: var(--rosa);
-} 
- .brinquedos :hover{
-    color: var(--azul);
+.brinquedos__fotos {
+  display: inline-block;
+  padding: 20px;
+  margin: 3rem;
+  margin-left: 2rem;
+}
 
- }
+.brinquedos__fotos a {
+  text-decoration: none;
+  color: var(--rosa);
+}
+.brinquedos :hover {
+  color: var(--azul);
+}
