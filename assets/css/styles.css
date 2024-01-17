@@ -5,9 +5,9 @@
 @import url("./facaparte/facaparte.css");
 @import url("./telalogin/telalogin.css");
 @import url("./quemsomos/quemsomos.css");
-@import url("./home/home.css");
 @import url("./brinquedos/brinquedos.css");
 @import url("./saibaMais/saibaMais.css");
+@import url("./home/home.css");
 @import url("../css/swiper.css");
 
 * {
