@@ -17,7 +17,7 @@
   padding: 0;
 }
 :root {
-  /*Cores*/
+  
   --azul-oceano: #69d2ca;
   --azul: #0096b8;
   --cor-fundo: #fcf6e8;
@@ -34,7 +34,7 @@
   --cor-fonte2: #f83aaf;
   --cor-sombreamento: #00000056;
 
-  /*Fontes*/
+ 
   --fonte-Dekko: "Dekko";
   --fonte-Chicle: "Chicle";
 }

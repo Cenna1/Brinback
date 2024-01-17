@@ -12,7 +12,7 @@
 .swiper-slide img {
   width: 800px;
   max-height: 110%;
-  object-fit: cover; /* Mantém a proporção da imagem */
+  object-fit: cover; 
 }
 .swiper-pagination {
   position: initial !important;
