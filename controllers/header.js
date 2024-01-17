@@ -18,7 +18,7 @@ const navegacaoMenuHamburguer =
   "<input type='checkbox' id='toggle_menu' class='container_botao' />" +
   "<ul class='menu_hamburguer'>" +
   "<li class='item_menu_hamburguer'>" +
-  "<a href='./quemSomos.html' class='link_menu_hamburguer'>" +
+  "<a href='./quemsomos.html' class='link_menu_hamburguer'>" +
   " Quem somos" +
   "</a>" +
   "</li>" +
