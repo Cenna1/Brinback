@@ -1,12 +1,62 @@
+.container_doacao{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
 
+ .container_titulo_botao{
+   display: flex;
+   flex-direction: column;
+ 
+ }
+.container_texto {
+ text-align: center;
+ padding: 1em 0;
+}
+
+.container_texto-titulo {
+ font-family: var(--fonte-Chicle);
+ font-size: 90px;
+ color: var(--azul);
+}
+
+.container_texto-frase {
+ font-family: var(--fonte-Dekko);
+ font-size: 45px;
+ color: var(--rosa);
+}
+.container_elemento1{
+ margin: 120px 200px;
+ height: 79px;
+ display: block;
+}
+
+.botao_doacao {
+ border: 6px solid #0096b8;
+ border-radius: 20px;
+ background: #0096b8;
+ box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+ font-family: var(--fonte-Chicle);
+ font-size: 32px;
+ color: var(--amarelo);
+ text-decoration: none;
+ padding: 0.4em 1em;
+}
 .voluntariado {
     background-color: var(--azul-oceano);
     text-align: center;
+    display:flex;
+     justify-content: center;
+     align-items: center;
 }
+.voluntariado_texto_botao{
+    display: flex;
+    flex-direction: column;
 
+}
 .voluntariado_texto {
     font-family: var(--fonte-Chicle);
-    font-size: 32px;
+    font-size: 52px;
     color: var(--branco);
 }
 
@@ -16,11 +66,14 @@
     gap: 1.5em;
     margin: 2em 1em;
 }
-
+.voluntariado_menina{
+    width: 1073px;
+    height: 831px;
+}
 .botoes {
-    border: 1px solid #f9f9f9;
     border-radius: 15px;
     padding: 2em;
+    
 }
 
 .botao1 {
@@ -32,3 +85,15 @@
     background: url(./img/maos_juntas.png), #f9f9f9;
     background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 1728px) {
+    .container_doacao {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .botao_doacao {
+      margin-left: 5em;
+    }
+  }
+  
