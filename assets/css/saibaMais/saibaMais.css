@@ -1,0 +1,81 @@
+.informacoes {
+   padding: 0 2em;
+}
+
+.info_doacao {
+    text-align: left;
+}
+
+.info_voluntario {
+    text-align: right;
+} 
+
+
+.info__titulo {
+    font-family: var(--fonte-Chicle);
+    font-size: 52px;
+    color: var(--azul);
+    margin: 0.5em 0.5em 0 0.5em;
+}
+
+.info__texto {
+    font-family: var(--fonte-Dekko);
+    font-size: 28px;
+    color: var(--rosa);
+    margin: 0 1em 1em 1em;
+}
+
+.info_botoes {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.info_botoes__texto {
+    font-family: var(--fonte-Chicle);
+    font-size: 40px;
+    color: var(--azul);
+    margin-bottom: 1em;
+}
+
+.info_botoes__texto > br {
+    display: none;
+}
+
+.info_links {
+    margin: 1em;
+}
+
+.info__link {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--amarelo);
+    padding: 1em;
+    font-family: var(--fonte-Dekko);
+    font-size: 28px;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .informacoes {
+        padding: 0;
+    }
+
+    .info__titulo {
+        font-size: 42px;
+    }
+
+    .info__texto {
+        font-size: 18px;
+        margin: 0 1em 1em 1em;
+    }
+
+    .info_botoes__texto > br {
+        display: block;
+    }
+
+    .info__link {
+        padding: 0.5em;
+        font-size: 24px;
+    }
+}

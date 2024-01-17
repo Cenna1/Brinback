@@ -1,3 +1,5 @@
+
+
 @import url("./header/header.css");
 @import url("./header/header.responsive.css");
 @import url("./doacao/doacao.css");
@@ -6,7 +8,7 @@
 @import url("./telalogin/telalogin.css");
 @import url("./quemsomos/quemsomos.css");
 @import url("./brinquedos/brinquedos.css");
-
+@import url("./saibaMais/saibaMais.css");
 @import url("./home/home.css");
 @import url("../css/swiper.css");
 
@@ -23,7 +25,6 @@
   --amarelo: #f2ca50;
   --branco: #ffffff;
   --cor-de-fundo: #fcf6e8;
-  --cor-de-fundo-login: #fcf6e8;
   --cor-de-fundo-card-login: #0096b8;
   --cor-do-botão-login: #f83aaf;
   --cor-do-botão-fonte-login: #f2ca50;
