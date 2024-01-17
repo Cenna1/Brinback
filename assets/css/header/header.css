@@ -21,7 +21,7 @@
   text-decoration: none;
   color: var(--branco);
   font-family: var(--fonte-Dekko);
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 2em;
 }
 .link_menu:hover {

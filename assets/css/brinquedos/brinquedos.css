@@ -44,3 +44,12 @@
 .brinquedos :hover {
   color: var(--azul);
 }
+
+@media (max-width: 728px) {
+  .brinquedos {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1000px;
+  }
+}
