@@ -7,28 +7,6 @@
     font-size: 50px;
   }
 
-
-
-.brinquedos__linha1{
-    font-family: var(--fonte-Dekko);
-    color: var(--azul);
-    text-align: center;
-    text-decoration: none;
-    text-align: center;
-
-}
-
-
-
-.brinquedos__linha2{
-    font-family: var(--fonte-Dekko);
-    color: var(--azul);
-    text-align: center;
-    display: inline-block;
-       
-}
-
-
 .brinquedos{
     font-family: var(--fonte-Dekko);
     font-size: 26px;
@@ -56,3 +34,7 @@
     color: var(--azul);
 
  }
+
+
+ 
+
