@@ -67,8 +67,8 @@
     margin: 2em 1em;
 }
 .voluntariado_menina{
-    width: 800px;
-    height: 651px;
+    width: 700px;
+    height: 551px;
 }
 .botoes {
     border-radius: 15px;
@@ -86,14 +86,33 @@
     background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 1728px) {
-    .container_doacao {
-      display: flex;
-      justify-content: center;
+  @media screen and (max-width: 1024px){
+    .container_texto-titulo{
+        font-size: 35px;
     }
-  
-    .botao_doacao {
-      margin-left: 5em;
+    .container_texto-frase{
+        font-size: 25px;
+    }
+    .container_doacao{
+        display: flex;
+        flex-direction: column;
+    }
+    .container_elemento2{
+        align-items: center;
+    }
+
+    .voluntariado{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .voluntariado_texto{
+        font-size: 25px;
+    }
+    .voluntarido_menina{
+        width: 347px;
+        height: 363px;
+    }
+    .voluntariado_botoes{
+        align-items: center;
     }
   }
-  

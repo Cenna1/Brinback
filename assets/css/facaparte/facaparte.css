@@ -28,14 +28,14 @@
   display: flex;
   justify-content: center;
   gap: 16px;
-  background: #69d2ca;
+  background-color: var(--azul-oceano);
   width: 70%;
   text-align: center;
   border-radius: 20px;
   text-decoration: none;
   font-size: 30px;
   padding: 0.4em 1em;
-  font-family: var(--fonte-chicle);
+  font-family: var(--fonte-Dekko);
 }
 
 .apresentacao__imagem {
@@ -51,7 +51,7 @@ a:hover {
 }
 .apresentacao__desktop {
   width: 100%;
-  display: flex;
+  display: none;
   gap: 30px;
 }
 .apresentacao__desktop img {
@@ -72,14 +72,15 @@ a:hover {
   display: flex;
   justify-content: center;
   gap: 16px;
-  background: #69d2ca;
+  background-color: var(--azul-oceano);
   width: 70%;
   text-align: center;
   border-radius: 20px;
   text-decoration: none;
+  font-family: var(--fonte-Dekko);
   font-size: 30px;
+  color: rgb(62, 62, 228);
   padding: 0.4em 1em;
-  font-family: var(--fonte-chicle);
 }
 @media (min-width: 1080px) {
   .apresentacao {
@@ -87,5 +88,10 @@ a:hover {
   }
   .swiper {
     display: block;
+  }
+
+  .apresentacao__desktop {
+    display: flex;
+    justify-content: center;
   }
 }

@@ -1,24 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Dekko&display=swap'); */
-
-/* body {
-  background-color: var(--cor-de-fundo);
-  color: var(--cor-de-fundo-login);
-  font-family: "Dekko", cursive;
-  font-size: 12pt;
-  letter-spacing: 3px;
-  margin: 0;
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* body * {
-  box-sizing: border-box;
-}  */
-
 .login {
   display: flex;
 }
